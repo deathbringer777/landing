@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Death__bringer at Taplink</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="https://taplink.st/a/2/1/5/1/e5e.jpg?248" alt="Avatar" />
+      <h1>Kyrylo Vdovin</h1>
+    </header>
+    <section class="block">
+      <h2>
+        <a href="https://music.apple.com/profile/death__bringer">Apple Music</a>
+      </h2>
+    </section>
+    <section class="block soundcloud-block shimmer">
+      <!-- Added 'shimmer' class -->
+      <h2><a href="https://soundcloud.com/dethbringer777">SoundCloud</a></h2>
+      <div class="shimmer"></div>
+      <!-- Added shimmer element inside the block -->
+    </section>
+    <section class="block">
+      <h2>
+        <a href="https://1deathbringer.bandcamp.com/track/black">BandCamp</a>
+      </h2>
+    </section>
+    <hr class="shine" />
+    <section class="block">
+      <h2><a href="http://instagram.com/death__bringer">Instagram</a></h2>
+    </section>
+    <section class="block">
+      <h2><a href="https://twitter.com/Death__Bringer">Twitter</a></h2>
+    </section>
+    <section class="block">
+      <h2><a href="https://vk.com/death__bringer">VK</a></h2>
+    </section>
+    <hr class="shine" />
+    <section class="block">
+      <h2><a href="mailto:vdovin.kyrylo@gmail.com">Email 📩</a></h2>
+    </section>
+    <hr />
+    <p class="warsaw-text">Warsaw | PL 📍</p>
+    <footer>
+      <p>© 2023 - Kyrylo Vdovin</p>
+    </footer>
+    <script>
+      // Script for the shimmering effect on SoundCloud block
+      const soundcloudBlock = document.querySelector(".soundcloud-block");
+
+      function toggleShimmerEffect() {
+        soundcloudBlock.classList.toggle("shimmering");
+      }
+
+      setInterval(toggleShimmerEffect, 3000); // Toggle every 5 seconds
+    </script>
+  </body>
+</html>
