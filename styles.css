@@ -8,7 +8,8 @@ body {
 /* Set background and text colors */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fbebd0; /* Light yellow background color */
+  background: linear-gradient(to bottom, #d1a65b, #50236a);
+  /*background-color: #fbebd0; /* Light yellow background color */
   color: #ffffff; /* White text color */
 }
 
@@ -16,7 +17,7 @@ body {
 header {
   text-align: center;
   padding: 40px;
-  color: #999;
+  color: #ffffff;
 }
 
 header img {
@@ -102,16 +103,16 @@ hr {
 footer {
   text-align: center;
   margin: 20px 0;
-  color: #999;
+  color: #ffffff;
   font-size: 14px;
 }
 
 .warsaw-text {
-  color: #999; /* Updated text color to dark gray */
+  color: #ffffff; /* Updated text color to dark gray */
   text-align: center;
 }
 
 /* Hover effect on all blocks */
 .block:hover {
-  background-color: #4d4b4c; /* Lighter gray on hover */
+  background-color: #; /* Lighter gray on hover */
 }
