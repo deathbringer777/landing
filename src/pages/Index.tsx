@@ -129,10 +129,10 @@ const Index = () => {
 
       {/* Footer - Simple text */}
       <motion.div 
-        className="flex-shrink-0 pb-8 sm:pb-10 md:pb-12 px-4 sm:px-6 md:px-8"
+        className="flex-shrink-0 pb-8 sm:pb-10 md:pb-12"
         variants={itemVariants}
       >
-        <div className="w-full flex flex-col items-center gap-1">
+        <div className="w-full flex flex-col items-center justify-center gap-1 text-center">
           <p className="text-white/40 text-xs">
             Warsaw | PL 📍
           </p>
