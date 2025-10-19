@@ -1,92 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Хули ты тут забыл? -->
-<!-- Хули ты тут забыл? -->
-<!-- Хули ты тут забыл? -->
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dezbringer</title>
-    <meta name="description" content="Kyrylo Vdovin, known as DJ Dezbringer. dezbringer.com  
-Find the latest news, releases, and more.">
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>DezBringer - Electronic Music Producer | Warsaw, Poland</title>
+    <meta name="description" content="DezBringer - Electronic Music Producer from Warsaw, Poland. Listen to tracks on YouTube, SoundCloud, BandCamp. Follow on Instagram and Telegram for updates." />
+    <meta name="author" content="DezBringer" />
+    <meta name="keywords" content="DezBringer, electronic music, producer, Warsaw, Poland, YouTube, SoundCloud, BandCamp, music production" />
+
+    <meta property="og:title" content="DezBringer - Electronic Music Producer" />
+    <meta property="og:description" content="Electronic Music Producer from Warsaw, Poland. Listen to my tracks and follow for updates." />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Kyrylo Vdovin" />
-    <meta property="og:description" content="Kyrylo Vdovin, also knows as DJ Dezbringer - dezbringer.com
-Find the latest news, releases, and more." />
-    <meta property="og:url" content="dezbringer.com" />
-    <meta property="og:image" content="https://psv4.userapi.com/c909618/u82503527/docs/d21/3381c67d51d4/Screenshot_2024-02-06_at_11_45_03.png?extra=JfD-VGR39WVHULT6FCOr_EsEfNNUEkX0GaDYjaY8se3BWB2PQte8HnGpt18WMzNrU8icDR2yY0JvDK2JmxFKOHQ4NE5mD_DY0WzgrdYfYYtJsi-0AQlCSp2uraBoyQeaZ8WUiTH28MyvEbLx2BgyktLn" />
-<link rel="icon" href="favicon2.png" type="image/png">
+    <meta property="og:url" content="https://dezbringer.com" />
+    <meta property="og:image" content="https://dezbringer.com/og-image.jpg" />
 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DezBringer - Electronic Music Producer" />
+    <meta name="twitter:description" content="Electronic Music Producer from Warsaw, Poland. Listen to my tracks and follow for updates." />
+    <meta name="twitter:image" content="https://dezbringer.com/og-image.jpg" />
 
-
-</head>
-
+    <link rel="canonical" href="https://dezbringer.com" />
+  </head>
 
   <body>
-    <header>
-      <img src="IMG_0221_Original_Original 2.jpg" alt="Avatar" />
-
-
-
-   
-   
-
-
-    </header>
-
-      
-    <section class="block">
-      <h2>
-        <a href="https://www.youtube.com/watch?v=XaUOO6qQp9U">YouTube</a>
-      </h2>
-    </section>
-    <section class="block soundcloud-block shimmer">
-      <!-- Added 'shimmer' class -->
-      <h2><a href="https://soundcloud.com/dezbringer">SoundCloud</a></h2>
-      <div class="shimmer"></div>
-      <!-- Added shimmer element inside the block -->
-    </section>
-    <section class="block">
-      <h2>
-        <a href="https://1deathbringer.bandcamp.com/track/black">BandCamp</a>
-      </h2>
-    </section>
-    <hr class="shine" />
-    <section class="block">
-      <h2><a href="http://instagram.com/dezbringer">Instagram</a></h2>
-    </section>
-
-    <section class="block">
-      <h2><a href="https://t.me/vdovin_music/">Telegram</a></h2>
-    </section>
-
-    <!--  <section class="block"> -->
-      <!--<h2><a href="https://twitter.com/Death__Bringer">Twitter</a></h2> -->
-     <!-- </section> -->
-<!--     <section class="block">
-      <h2><a href="https://vk.com/death__bringer">VK</a></h2>
-    </section> -->
-    <hr class="shine" />
-    <section class="block">
-      <h2><a href="mailto:contact@dezbringer.com">Email 📩</a></h2>
-    </section>
-    <hr />
-    <p class="warsaw-text">Warsaw | PL 📍</p>
-    <footer>
-      <p>© 2025 - Kyrylo Vdovin</p>
-    </footer>
-    <script>
-      // Script for the shimmering effect on SoundCloud block
-      const soundcloudBlock = document.querySelector(".soundcloud-block");
-
-      function toggleShimmerEffect() {
-        soundcloudBlock.classList.toggle("shimmering");
-      }
-
-      setInterval(toggleShimmerEffect, 3000); // Toggle every 5 seconds
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
